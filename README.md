@@ -4,8 +4,8 @@ Simple docker compose configuration to run private local Ollama service with Ope
 
 ## Prerequisite
 
-1.  install Ollama on your PC/mac <https://ollama.com/download/>
-2.  start ollama and pull beloved image (llama3.1:8b, qwen3:8b)
+1.  install ollama on your pc/mac <https://ollama.com/download/>
+2.  start ollama and pull beloved image ([llama3.1:8b](https://ollama.com/library/llama3.1), [qwen3:8b](https://ollama.com/library/qwen3))
 3.  create `.env` by using `.env.example` and adjust the values
 
     ```sh
@@ -25,4 +25,4 @@ Simple docker compose configuration to run private local Ollama service with Ope
     docker compose up -d
     ```
 
-5.  Open <http://localhost:3001/>
+5.  open <http://localhost:3001/>
